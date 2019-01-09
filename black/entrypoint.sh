@@ -9,6 +9,4 @@ then
     args="$args --config pyproject.toml"
 fi
 
-echo "Running black $args ."
-
 black $args .
