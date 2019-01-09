@@ -1,4 +1,4 @@
-# actions
+# Stratasan GitHub Actions
 
 Shared GitHub Actions we use across our codebases
 
