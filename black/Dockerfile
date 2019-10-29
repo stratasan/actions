@@ -9,7 +9,7 @@ LABEL com.github.actions.description="Verifies python files match Black formatti
 LABEL com.github.actions.icon="file"
 LABEL com.github.actions.color="gray-dark"
 
-RUN pip install black
+RUN pip install black==19.3b0
 
 COPY entrypoint.sh /entrypoint.sh
 
